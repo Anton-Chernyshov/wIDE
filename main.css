@@ -1,0 +1,84 @@
+.darkBackGround{
+    background-color: #121212;
+    margin:auto;
+    font-family: Arial;
+    color: #fefefe;
+}
+.lightBackGround{
+    background-color: #fefefe;
+    margin:auto;
+    font-family: Arial;
+    color: #121212;
+}
+.darkGeneral{
+    background-color: #121212;
+    color: #fefefe;
+}
+.lightGeneral{
+    color: #121212;
+    background-color: #fefefe;
+}
+.mainHeader{
+    font-size: 50px;
+    text-align: center;
+}
+.subMainHeader{
+    font-size: 25px;
+    text-align: center;
+}
+.run{
+    color: #ffffff;
+    background-color: #343434;
+    border: 3px solid#565656;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: color 100ms, border 100ms, background-color 100ms;
+}
+.run:hover{
+
+    color: #cacaca;
+    border: 3px solid #5B5b5b;
+    background-color: #424242;
+    font-weight: bolder;
+
+}
+
+.stop{
+    color: #ffffff;
+    background-color: #dd5456;
+    border: 3px solid#e13535;
+    border-radius: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: color 100ms, border 100ms, background-color 100ms;
+}
+.stop:hover{
+    color:#cacaca;
+    background-color: #ff7678;
+    border: 3px solid #bf1313;
+}
+
+.centeredButtons{
+    text-align: center  ;
+}
+.lightDarkMode{
+    color: #000000;
+    background-color: #b9b9b9;
+    transition: color 100ms;
+    border-radius: 10px;
+}
+.languageSelector{
+    text-align: center;
+}
+.codingFieldDiv{
+    text-align: center;
+}
+#codingField{
+    width: 1000px;
+    height: 500px;
+}
