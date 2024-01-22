@@ -58,3 +58,20 @@ function runit() {
        console.log(err.toString());
    });
 } 
+
+function saveCurrentCode(){
+
+  code = document.getElementById("codingField").value;
+  saveName = prompt("Save Name");
+  localStorage.setItem(saveName, code );
+  
+}
+function loadMenu(){
+ allNames = []
+  for (var i = 0; i < localStorage.length; i++){
+    //alert(localStorage.key(i));
+    allNames.push(localStorage.key(i));
+  }
+  codeToLoad = prompt("Load File Name:"+ allNames);
+  document.getElementById("codingField").value = localStorage.getItem(codeToLoad);
+}
