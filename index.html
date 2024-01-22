@@ -8,26 +8,28 @@
         The Web IDE
     </div>
 </head>
-<button class = "lightDarkMode" id = "lightDarkMode" onclick="switchVisualMode()">
-light
-</button>
+
 <!-- THIS BIT IS A "HEADER" for bugs -->
     
 <!-- END OF IT  -->
 
 <div class = "centeredButtons">
-
+  <button class = "saveButton" id = "saveButton" onclick="saveCurrentCode()">
+  SAVE
+  </button>
 <button class = "run" id = "runStop" onclick="runScript()">
     RUN
 </button>
-
+  <button class = "loadCode" id = "loadCode" onclick="loadMenu()">
+  LOAD
+  </button>
 <div class = "languageSelector">
     <select class = "languages">
         <option value = "python">
             Python
         </option>
         <option value = "javascript">
-            Javascript
+            More Soon??
         </option>
     </select>
 </div>
